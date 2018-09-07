@@ -19,17 +19,17 @@ mod 'puppetlabs/java',	      '1.6.0'
 #
 mod 'ssh',
   :git => 'https://github.com/alexrswan/puppet-ssh.git',
-  :ref => 'master',
+  :ref => 'master'
 
 mod 'ntp',
   :git => 'https://github.com/alexrswan/puppet-ntp.git',
   :ref => 'master'
 
-mod 'role'
+mod 'role',
   :git => 'https://github.com/alexrswan/puppet-role.git',
   :ref => 'master'
 
-mod 'profile'
+mod 'profile',
   :git => 'https://github.com/alexrswan/puppet-profile.git',
   :ref => 'master'
   
